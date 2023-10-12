@@ -1,0 +1,23 @@
+_id: req_4326e7dae6674379bdbf6be792bdef1a
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096661516
+created: 1696597882394
+url: "{{ _.host }}/outgoing-invoices/delete/e7f14048-ed01-49c3-92de-b79dd9741cff"
+name: DeleteOutgoing
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication: {}
+metaSortKey: -1696597882394
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_1ef383b93e5b496bb122a7fe8522a7dc
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096661515
+created: 1696415924744
+url: "{{ _.host }}/products//delete/92694c45-7f83-4f92-a8d9-82b12c3b62e9"
+name: DeleteProduct
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.1.0
+authentication: {}
+metaSortKey: -1696415924744
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

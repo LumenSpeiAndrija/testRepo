@@ -1,0 +1,23 @@
+_id: req_0de56e4b7d9b4ea7bafc625e964fb3c4
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096661515
+created: 1696509483038
+url: "{{ _.host }}/offers?size=3"
+name: GetAllWIthoutPaging
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication: {}
+metaSortKey: -1696509483038
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

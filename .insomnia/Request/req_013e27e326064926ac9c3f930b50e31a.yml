@@ -1,0 +1,30 @@
+_id: req_013e27e326064926ac9c3f930b50e31a
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096661513
+created: 1696412211365
+url: "{{ _.host }}/categories"
+name: CreateCategory
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+        "name": "Category1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.1.0
+authentication: {}
+metaSortKey: -1696412211365
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_73e5cf494aa24e8d9febc471251f3b2d
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096661517
+created: 1696412630992
+url: "{{ _.host }}/products"
+name: CreateProduct
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "sku": 3,
+      "name": "Pro Duck",
+      "description": "This is the description.",
+      "type": "PRODUCT",
+      "unitOfMeasure": {
+        "id": "2"
+      },
+      "category": {
+        "id": "2"
+      },
+      "price": 66.99,
+      "taxGroup": "Sample Tax Group"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.1.0
+authentication: {}
+metaSortKey: -1696412630992
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

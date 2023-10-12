@@ -1,0 +1,23 @@
+_id: req_5132f067749a4806aecf0a9e9af9fd39
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096661516
+created: 1696509468747
+url: "{{ _.host }}/offers/77e748da-2e96-42e8-a860-6bd5965c3387"
+name: GetOfferById
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication: {}
+metaSortKey: -1696509468747
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

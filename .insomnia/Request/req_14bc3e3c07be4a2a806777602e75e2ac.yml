@@ -1,0 +1,63 @@
+_id: req_14bc3e3c07be4a2a806777602e75e2ac
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096661515
+created: 1696509215541
+url: "{{ _.host }}/offers/77e748da-2e96-42e8-a860-6bd5965c3387"
+name: UpdateOffer
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "clientId": "1",
+      "dateIssued": "2023-10-04T10:00:00",
+      "validUntilDate": "2023-11-04T10:00:00",
+      "notes": "Updated notes here", 
+      "amount": 150.00, 
+      "vat": 30.00, 
+      "total": 180.00, 
+      "rebate": 15.00, 
+      "charge": 7.50, 
+      "paymentType": "CARD",
+      "currency": "EUR",
+      "inputCurrency": "USD",
+      "exchangeRate": 1.2,
+      "exchangeRateOverride": false,
+      "exchangeRateDefaultCurrency": 1.0,
+      "includeVat": true,
+      "internationalNotes": "Updated international notes here", 
+      "offerItemDTOS": [
+        {
+          "productId": "1",
+          "price": 18.0, 
+          "total": 18.0 
+        },
+        {
+          "productId": "2",
+          "price": 20.0, 
+          "total": 20.0 
+        },
+        {
+          "productId": "3",
+          "price": 25.0,
+          "total": 25.0
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication: {}
+metaSortKey: -1696509215541
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,59 @@
+_id: req_2b8842c966c44ed6b66cce07567c3e82
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096661516
+created: 1696504952484
+url: "{{ _.host }}/offers"
+name: CreateOffer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "clientId": "1",
+      "dateIssued": "2023-10-04T10:00:00",
+      "validUntilDate": "2023-11-04T10:00:00",
+      "notes": "Notes 2",
+      "amount": 100.00,
+      "vat": 20.00,
+      "total": 120.00,
+      "rebate": 10.00,
+      "charge": 5.00,
+      "paymentType": "CARD",
+      "currency": "EUR",
+      "inputCurrency": "USD",
+      "exchangeRate": 1.2,
+      "exchangeRateOverride": false,
+      "exchangeRateDefaultCurrency": 1.0,
+      "includeVat": true,
+      "internationalNotes": "International notes",
+    	"isDeleted": false,
+      "offerItemDTOS": [
+        {
+          "productId": "1",
+          "price": 15.0,
+    			"total": 15.0
+        },
+        {
+          "productId": "2",
+          "price": 18.0,
+    			"total": 18.0
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication: {}
+metaSortKey: -1696504952484
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

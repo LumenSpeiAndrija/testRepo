@@ -1,0 +1,23 @@
+_id: req_24716360bb284b1f9c99aa7a6be9a9f1
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096661515
+created: 1696416892090
+url: "{{ _.host }}/products/restore/3"
+name: RestoreProduct
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.1.0
+authentication: {}
+metaSortKey: -1696416892090
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

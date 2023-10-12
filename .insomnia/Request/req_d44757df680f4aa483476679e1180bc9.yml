@@ -1,0 +1,40 @@
+_id: req_d44757df680f4aa483476679e1180bc9
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096661517
+created: 1696416373503
+url: "{{ _.host }}/products/3"
+name: UpdateProduct
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+        "name": "Updated Dawg",
+        "description": "This is updated description.",
+        "type": "SERVICE",
+        "unitOfMeasure": {
+            "id": 1
+        },
+        "category": {
+            "id": 2
+        },
+        "price": 66.99,
+        "taxGroup": "Updated Tax Group"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.1.0
+authentication: {}
+metaSortKey: -1696416373503
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

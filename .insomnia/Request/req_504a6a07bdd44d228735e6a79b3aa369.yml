@@ -1,0 +1,89 @@
+_id: req_504a6a07bdd44d228735e6a79b3aa369
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096661516
+created: 1696596309199
+url: "{{ _.host }}/outgoing-invoices/"
+name: CreateOutgoingInvoice
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "number": "SomeNumbers",
+      "clientId": "1",
+      "invoiceStatus": "PAID",
+      "date": "2023-10-06T10:00:00",
+      "dueDate": "2023-10-20T10:00:00",
+      "paymentType": "CARD",
+    	"paymentDate": "2023-10-06T10:00:00",
+    	"officeId": "SomeId",
+    	"registerId": "SomeRegisterId",
+    	"deliveryDate": "2023-11-06T10:00:00",
+    	"notes": "Invoice for products",
+      "amount": 500.00,
+      "vat": 100.00,
+      "total": 600.00,
+      "rebate": 50.00,
+    	"charge": 0.00,
+      "advance": false,
+      "currency": "USD",
+      "inputCurrency": "USD",
+      "exchangeRate": 1.0,
+      "exchangeRateOverride": false,
+      "exchangeRateDefaultCurrency": 1.0,
+      "includeVat": true,
+      "internationalNotes": "Created notes",
+      "outgoingInvoiceItemDTOS": [
+        {
+          "number": 1,
+          "productId": "3d1a8226-301c-445c-b927-b41db7ef62b2",
+          "quantity": 1.0,
+          "inputPrice": 50.00,
+          "price": 60.00,
+          "amount": 300.00,
+          "vatPercentage": 20.00,
+          "vatAmount": 60.00,
+          "rebateDefinedAsPercentage": true,
+          "rebatePercentage": 5.00,
+          "rebateAmount": 15.00,
+          "rebateDesc": "Discount on product 1",
+          "chargeDefinedAsPercentage": false,
+          "total": 345.00,
+          "notes": "Product 1 notes"
+        },
+        {
+          "number": 2,
+          "productId": "75c96ca9-3b18-4ad1-9182-1f7472d1c383",
+          "quantity": 5.0,
+          "inputPrice": 40.00,
+          "price": 50.00,
+          "amount": 150.00,
+          "vatPercentage": 20.00,
+          "vatAmount": 30.00,
+          "rebateDefinedAsPercentage": true,
+          "rebatePercentage": 3.00,
+          "rebateAmount": 4.50,
+          "rebateDesc": "Discount on product 2",
+          "chargeDefinedAsPercentage": false,
+          "total": 145.50,
+          "notes": "Product 2 updated"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.2.0
+authentication: {}
+metaSortKey: -1696596309199
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
