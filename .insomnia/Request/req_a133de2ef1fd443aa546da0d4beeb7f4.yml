@@ -1,0 +1,23 @@
+_id: req_a133de2ef1fd443aa546da0d4beeb7f4
+type: Request
+parentId: wrk_f76bbde92a1940c885a967c608532720
+modified: 1697096940128
+created: 1697096940128
+url: CreatedBranch
+name: CreatedBranchRequest2
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697096498368
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
